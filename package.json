@@ -1,0 +1,57 @@
+{
+  "name": "@chendb888/dsh-project-board",
+  "version": "0.6.11",
+  "type": "module",
+  "description": "通用项目白盒看板：蓝图驱动的即时布局与实时进度（领域无关）",
+  "meta": {
+    "title": "项目白盒看板",
+    "description": "领域无关项目看板：蓝图驱动即时布局、实时任务进度/ETA、代码下钻、编辑卡与导游。"
+  },
+  "icon": "./icon.svg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chendb888/dsh-project-board.git"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "CHANGELOG.md",
+    "docs/images/*.png",
+    "locale/*.json",
+    "project-2-board/lib/projection.js",
+    "project-2-board/lib/tools.js",
+    "project-2-board/lib/routes.js",
+    "project-2-board/lib/auto.js",
+    "project-2-board/lib/spd.js",
+    "project-2-board/lib/sync-worker.js",
+    "project-3-guide/lib/guide.js",
+    "contracts/validator.js"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "keywords": [
+    "看板",
+    "可视化",
+    "dsh",
+    "白盒"
+  ]
+}

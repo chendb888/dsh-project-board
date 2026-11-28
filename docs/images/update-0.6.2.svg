@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="Segoe UI, Microsoft YaHei, sans-serif">
+<rect width="900" height="560" fill="#1e1e1e"/>
+<rect x="0" y="0" width="900" height="50" fill="#2a2a2a"/>
+<text x="20" y="32" fill="#fff" font-size="17" font-weight="bold">DSH任务可视化插件 · v0.6.2 更新位置</text>
+<text x="40" y="100" fill="#ff5000" font-size="15" font-weight="bold">本次更新内容</text>
+<text x="40" y="150" fill="#ddd" font-size="13">• 自动同步全覆盖：autoSync 覆盖所有有 scope 的任务（不覆盖真实 running 任务）。</text><text x="40" y="176" fill="#ddd" font-size="13">• 文档总览同步：总览显示 ⚡ 自动同步状态 + 基线版本；补齐 02/08/11/17 现状基线文档。</text>
+<rect x="40" y="270" width="380" height="150" rx="8" fill="#2a2a2a" stroke="#3a3a3a"/>
+<text x="55" y="300" fill="#fff" font-size="13" font-weight="bold">界面区域 A</text>
+<rect x="55" y="315" width="350" height="8" rx="4" fill="#22a06b"/>
+<text x="55" y="350" fill="#888" font-size="11">更新区域①（红框标注）</text>
+<rect x="35" y="265" width="390" height="160" rx="10" fill="none" stroke="#ff3b30" stroke-width="2.5" stroke-dasharray="6 3"/>
+<rect x="450" y="270" width="410" height="150" rx="8" fill="#2a2a2a" stroke="#3a3a3a"/>
+<text x="465" y="300" fill="#fff" font-size="13" font-weight="bold">界面区域 B</text>
+<rect x="465" y="315" width="280" height="8" rx="4" fill="#5b6cff"/>
+<text x="465" y="350" fill="#888" font-size="11">更新区域②（红框标注）</text>
+<rect x="445" y="265" width="420" height="160" rx="10" fill="none" stroke="#ff3b30" stroke-width="2.5" stroke-dasharray="6 3"/>
+<rect x="20" y="440" width="860" height="100" rx="8" fill="#252525"/>
+<text x="40" y="465" fill="#ff5000" font-size="14" font-weight="bold">v0.6.2 更新位置图例</text>
+<text x="40" y="470" fill="#ddd" font-size="12">① 自动同步全覆盖：autoSync 覆盖所有有 scope 的任务（不覆盖真实 running 任务）。</text><text x="40" y="494" fill="#ddd" font-size="12">② 文档总览同步：总览显示 ⚡ 自动同步状态 + 基线版本；补齐 02/08/11/17 现状基线文档。</text>
+<text x="40" y="528" fill="#888" font-size="11">红虚线框 = 本次更新位置 · 示意图（实际界面以运行时为准）</text>
+</svg>

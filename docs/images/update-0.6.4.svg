@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="Segoe UI, Microsoft YaHei, sans-serif">
+  <rect width="900" height="560" fill="#1e1e1e"/>
+  <!-- 顶栏 -->
+  <rect x="0" y="0" width="900" height="48" fill="#2a2a2a"/>
+  <text x="20" y="30" fill="#fff" font-size="16" font-weight="bold">📋 项目白盒看板 · 总览</text>
+  <!-- 0.6.4 更新区：同步控制（右上） -->
+  <rect x="560" y="8" width="320" height="32" rx="6" fill="#333" stroke="#ff5000" stroke-width="2"/>
+  <text x="575" y="29" fill="#ffb380" font-size="13">⚡ 自动同步: 开</text>
+  <rect x="700" y="12" width="60" height="24" rx="4" fill="#444"/>
+  <text x="712" y="29" fill="#fff" font-size="12">🔄 手动</text>
+  <rect x="770" y="12" width="100" height="24" rx="4" fill="#444"/>
+  <text x="782" y="29" fill="#fff" font-size="12">开/关同步</text>
+  <!-- 标注1 -->
+  <rect x="555" y="3" width="330" height="42" rx="8" fill="none" stroke="#ff3b30" stroke-width="2.5" stroke-dasharray="6 3"/>
+  <text x="560" y="62" fill="#ff3b30" font-size="13" font-weight="bold">① 0.6.4 新增：事件驱动同步 + 手动同步 + 开关</text>
+  <!-- 板块卡片 -->
+  <g>
+    <rect x="20" y="90" width="270" height="120" rx="8" fill="#2a2a2a" stroke="#3a3a3a"/>
+    <text x="35" y="118" fill="#fff" font-size="14" font-weight="bold">M1 台账内核</text>
+    <rect x="35" y="130" width="240" height="8" rx="4" fill="#444"/>
+    <rect x="35" y="130" width="240" height="8" rx="4" fill="#22a06b"/>
+    <text x="35" y="160" fill="#22a06b" font-size="12">✓ 4/4 完成 · 100%</text>
+    <text x="35" y="185" fill="#888" font-size="11">⚡ 自动同步已覆盖</text>
+  </g>
+  <g>
+    <rect x="310" y="90" width="270" height="120" rx="8" fill="#2a2a2a" stroke="#3a3a3a"/>
+    <text x="325" y="118" fill="#fff" font-size="14" font-weight="bold">M2 全自动发布</text>
+    <rect x="325" y="130" width="240" height="8" rx="4" fill="#444"/>
+    <rect x="325" y="130" width="200" height="8" rx="4" fill="#5b6cff"/>
+    <text x="325" y="160" fill="#5b6cff" font-size="12">◐ 进行中 · 动态加载%</text>
+    <text x="325" y="185" fill="#888" font-size="11">任务完成即同步（事件驱动）</text>
+  </g>
+  <!-- 标注2 -->
+  <rect x="305" y="85" width="280" height="130" rx="10" fill="none" stroke="#ff3b30" stroke-width="2.5" stroke-dasharray="6 3"/>
+  <text x="310" y="232" fill="#ff3b30" font-size="13" font-weight="bold">② 0.6.4：任务完成即时同步进度（不再等轮询）</text>
+  <!-- 依赖流程图 -->
+  <rect x="20" y="260" width="560" height="150" rx="8" fill="#2a2a2a" stroke="#3a3a3a"/>
+  <text x="35" y="288" fill="#fff" font-size="14" font-weight="bold">依赖流程图（SVG 横向）</text>
+  <circle cx="80" cy="340" r="22" fill="#22a06b"/><text x="68" y="345" fill="#fff" font-size="11">schemas</text>
+  <circle cx="200" cy="340" r="22" fill="#22a06b"/><text x="190" y="345" fill="#fff" font-size="11">store</text>
+  <circle cx="320" cy="340" r="22" fill="#5b6cff"/><text x="308" y="345" fill="#fff" font-size="11">service</text>
+  <circle cx="440" cy="340" r="22" fill="#888"/><text x="428" y="345" fill="#fff" font-size="11">publish</text>
+  <line x1="102" y1="340" x2="178" y2="340" stroke="#666" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="222" y1="340" x2="298" y2="340" stroke="#666" stroke-width="2"/>
+  <line x1="342" y1="340" x2="418" y2="340" stroke="#666" stroke-width="2"/>
+  <text x="35" y="395" fill="#888" font-size="11">关键路径高亮 · 状态色（绿=完成 蓝=进行 灰=待办）</text>
+  <!-- 对话框常驻 -->
+  <rect x="600" y="260" width="280" height="150" rx="8" fill="#2a2a2a" stroke="#3a3a3a"/>
+  <text x="615" y="288" fill="#fff" font-size="14" font-weight="bold">💬 常驻对话框</text>
+  <rect x="615" y="300" width="250" height="60" rx="6" fill="#333"/>
+  <text x="625" y="325" fill="#aaa" font-size="11">锁定：当前任务</text>
+  <text x="625" y="345" fill="#666" font-size="11">跨层级/跨页保留输入</text>
+  <rect x="615" y="370" width="250" height="26" rx="6" fill="#444"/>
+  <text x="625" y="388" fill="#888" font-size="11">🎤 输入或提问…</text>
+  <!-- 图例 -->
+  <rect x="20" y="440" width="860" height="100" rx="8" fill="#252525"/>
+  <text x="35" y="468" fill="#ff5000" font-size="14" font-weight="bold">0.6.4 更新位置图例</text>
+  <text x="35" y="495" fill="#ddd" font-size="12">① 右上同步控制区：事件驱动自动同步 + 🔄手动同步按钮 + 开/关开关（sync-config.json）</text>
+  <text x="35" y="518" fill="#ddd" font-size="12">② 板块进度卡：任务完成即时同步（tool/result、turn/end 触发），动态加载进度条</text>
+  <text x="35" y="541" fill="#888" font-size="11">红虚线框 = 本次更新位置 · 示意图（实际界面以运行时为准）</text>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "title": "Project Whitebox Board",
+  "description": "Domain-agnostic project board: blueprint-driven layout, real-time task progress/ETA, code drill-down, edit cards, and guide. Visualizes any project's tasks and code.",
+  "meta": {
+    "title": "DSH任务可视化插件",
+    "description": "通用项目白盒看板：蓝图驱动即时布局、实时任务进度/ETA、代码下钻、编辑卡与导游。npm 包名 @chendb888/dsh-project-board。",
+    "detail": "docs/DETAIL.md"
+  }
+}
